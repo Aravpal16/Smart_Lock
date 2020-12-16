@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_add_lock_codes_screen"
+    tools:context="com.example.philipgo.servodoorlock.Data">
+
+
+    <EditText
+        android:id="@+id/updateName"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Name"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#8B8A8A"
+        android:inputType="text"
+        android:textColorHint="#8B8A8A"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/updateNumber"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateName"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Lock code"
+        android:backgroundTint="#8B8A8A"
+        android:textCursorDrawable="@null"
+        android:inputType="number"
+        android:textColorHint="#8B8A8A"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/auto_generate"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="18dp"
+        android:layout_toEndOf="@+id/updateNumber"
+        android:layout_toRightOf="@+id/updateNumber"
+        android:text="Auto Generate Code"
+        android:textColor="#111010" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:paddingHorizontal="20dp">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:text="Save"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:text="DELETE"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

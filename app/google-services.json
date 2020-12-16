@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "438810266675",
+    "firebase_url": "https://arduino-1a350.firebaseio.com",
+    "project_id": "arduino-1a350",
+    "storage_bucket": "arduino-1a350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438810266675:android:4f256216c203a77a2fa746",
+        "android_client_info": {
+          "package_name": "com.example.philipgo.servodoorlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438810266675-d3qjrt1fuk4dcspab8nq1v62lccqt78a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxYS6X3PLKxQpDdfaP0oocM-1ZkclZVwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438810266675-d3qjrt1fuk4dcspab8nq1v62lccqt78a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

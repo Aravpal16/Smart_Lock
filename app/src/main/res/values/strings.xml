@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Smart Lock</string>
+    <string name="register">Register</string>
+    <string name="tag">Login</string>
+
+    <string name="title_activity_lock_codes">lockCodes</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_lockcodes">LockcodesActivity</string>
+    <string name="title_activity_lock_status">LockStatusActivity</string>
+    <string name="msg_token_fmt" />
+    <string name="fcm_token" />
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">438810266675-d3qjrt1fuk4dcspab8nq1v62lccqt78a.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://arduino-1a350.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">438810266675</string>
+    <string name="google_api_key" translatable="false">AIzaSyCxYS6X3PLKxQpDdfaP0oocM-1ZkclZVwE</string>
+    <string name="google_app_id" translatable="false">1:438810266675:android:4f256216c203a77a2fa746</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCxYS6X3PLKxQpDdfaP0oocM-1ZkclZVwE</string>
+    <string name="google_storage_bucket" translatable="false">arduino-1a350.appspot.com</string>
+    <string name="project_id" translatable="false">arduino-1a350</string>
+</resources>
